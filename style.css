@@ -45,12 +45,14 @@ header {
     color: white;
     font-weight: bolder;
     border-radius: 5px;
+    background: rgb(0, 10, 0);
+}
+.btn:hover{
+    cursor: pointer;
 }
 
 .primary-btn {
     margin-left: 1080px;
-
-    background: rgb(0, 10, 0);
     font-size: 20px;
 }
 
@@ -63,7 +65,7 @@ main {
 /* picture-section */
 .picture-section {
     display: flex;
-    margin: 20px 240px;
+    margin: 100px 240px;
 
     gap: 50px;
 
@@ -104,4 +106,40 @@ li {
     margin-top: 20px;
     margin-left: 30px;
     color: #444343;
+}
+.my-plan .heading{
+    text-align: center;
+    font-size: 45px;
+}
+.item img{
+    margin: 10px 80px;
+}
+.my-plans-item{
+    display: flex;
+    gap: 40px;
+    margin: 40px 200px;
+}
+.my-plans-heading{
+    text-align: center;
+    margin: 10px;
+}
+.my-plans-description{
+    color: gray;
+    font-size: 18px;
+}
+.gradient-section{
+    width: 1140px;
+    height: 300px;
+    margin:100px auto;
+   border-radius: 8px;
+   background-image: url("images/gradient1.png"),url("images/watch.png");
+}
+.gradient-section-heading{
+    font-size: 40px;
+    color: white;
+    margin:35px 700px 40px 40px;
+  
+}
+.gradient-section-btn{
+    margin-left:40px;
 }
