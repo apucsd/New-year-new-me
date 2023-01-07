@@ -78,7 +78,7 @@ main {
 }
 
 .pic {
-    background: linear-gradient(90deg, rgb(50, 98, 241) 14%, rgb(50, 153, 233) 55%, rgba(11, 206, 255, 1) 100%, rgba(54, 53, 106, 1) 100%, rgba(47, 174, 199, 1) 100%);
+    background: linear-gradient(90deg, blue, rgb(68, 67, 67,30%));
 
     border-radius: 50%;
 
@@ -125,10 +125,10 @@ li {
     width: 80%;
     display: flex;
     gap: 40px;
-    margin: 110px auto;
+    margin: 150px auto;
     text-align: left;
     box-shadow: 2px 2px 10px rgb(214, 214, 218);
-    padding: 40px;
+    padding: 50px;
 }
 .how-to-plan h1{
     text-align: center;
@@ -172,6 +172,7 @@ li {
 .my-plans-description {
     color: gray;
     font-size: 18px;
+    text-align: center;
 }
 
 /* gradient section */
@@ -180,7 +181,7 @@ li {
     height: 300px;
     margin: 100px auto;
     border-radius: 8px;
-    background-image: url("images/gradient1.png"), url("images/watch.png");
+    background: linear-gradient(90deg, blue, rgb(68, 67, 67,30%));
 }
 
 .gradient-section-heading {
