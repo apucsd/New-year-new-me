@@ -142,7 +142,7 @@ li {
 }
 .fa-book{
     font-size: 22px;
-    color: #187f09;
+    color: #26b410;
 }
 /* my-plan section */
 .my-plan{
@@ -260,7 +260,7 @@ footer {
 .subscribe-btn {
     background-color: rgb(49, 170, 36);
     color: white;
-    padding: 5px 15px;
+    padding: 10px 15px;
     font-size: 20px;
     border: none;
     font-weight: bolder;
