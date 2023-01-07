@@ -16,17 +16,20 @@ header {
 
     background-image: url("images/banner/banner3.png");
     background-repeat: no-repeat;
+    background-size: 100%;
     height: 100vh;
-    width: 100vw;
+
     color: white;
 
 }
+.header-all-text{
+   padding: 100px 100px 0px 700px ;
+   text-align: right;
+}
 
 .header-title {
-    text-align: right;
-    padding-top: 190px;
-    padding-right: 250px;
-    font-size: 70px;
+  
+    font-size: 55px;
 }
 
 .extra-style {
@@ -35,11 +38,7 @@ header {
 }
 
 .header-title-description {
-    text-align: right;
-    margin: 20px;
-    padding-right: 235px;
-    font-size: 20px;
-    padding-left: 900px;
+   margin: 10px;
 
 
 }
@@ -60,8 +59,8 @@ header {
 }
 
 .primary-btn {
-    margin-left: 1160px;
     font-size: 20px;
+    margin: 10px;
 }
 
 /* header section end */
@@ -71,7 +70,7 @@ header {
 /* main section start */
 
 main {
-    margin: 40px;
+    width: 100vw;
 
 }
 
@@ -79,7 +78,7 @@ main {
 /* picture-section */
 .picture-section {
     display: flex;
-    margin: 100px 220px;
+    margin: 100px 80px;
 
     gap: 50px;
 
@@ -88,15 +87,14 @@ main {
 .pic {
    
     border-radius: 50%;
-
-
+}
+.pic-title{
+    text-align: left;
 }
 
 .pic-title-heading {
-    font-size: 45px;
-    text-align: left;
+    font-size: 35px;
     margin-top: 130px;
-    margin-left: 30px;
     margin-bottom: 20px;
     color: black;
     font-weight: bolder;
@@ -105,26 +103,19 @@ main {
 
 .pic-title-description {
     color: #444343;
-    font-size: 22px;
-    text-align: left;
-    margin-left: 30px;
     margin-bottom: 50px;
 
 }
 
 .fa-solid {
     color: green;
-    font-size: 20px;
 }
 
 .pic-title-description ul,
 li {
     list-style: none;
+    margin-top: 10px;
     list-style-position: inside;
-    font-size: 17px;
-    text-align: left;
-    margin-top: 20px;
-    margin-left: 30px;
     color: #444343;
 }
 
@@ -132,54 +123,52 @@ li {
     width: 80%;
     display: flex;
     gap: 40px;
-    margin: 150px auto;
+    margin:50px auto;
     text-align: left;
     box-shadow: 2px 2px 10px rgb(214, 214, 218);
     padding: 50px;
 }
 .how-to-plan h1{
     text-align: center;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: bolder;
 }
 .how-to-plan-description h1{
-    font-size: 38px;
-    margin: 10px 0;
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 .how-to-plan-description p{
-    font-size: 20px;
     color: gray;
 }
 .fa-book{
-    margin-left: -20px ;
-    font-size: 45px;
+    font-size: 22px;
     color: #187f09;
 }
 /* my-plan section */
+.my-plan{
+    text-align: center;
+}
 .my-plan .heading {
     text-align: center;
-    font-size: 45px;
+    font-size: 35px;
 }
 
 .item img {
-    margin: 10px 80px;
+   margin: 10px 50px;
 }
 
 .my-plans-item {
     display: flex;
-    gap: 40px;
-    margin: 40px 200px;
+    gap: 20px;
+    margin: 50px 200px;
 }
 
 .my-plans-heading {
-    text-align: center;
     margin: 10px;
 }
 
 .my-plans-description {
     color: gray;
-    font-size: 18px;
-    text-align: center;
 }
 
 /* gradient section */
@@ -207,31 +196,41 @@ li {
 /* footer-section */
 footer {
     background-color: black;
+    height: 300px;
 }
-
-footer .footer-items {
+.footer-items {
     color: white;
     display: flex;
-    gap: 110px;
-    margin: 100px 300px 0 300px;
+    gap: 50px;
+    text-align: left;
+    margin: 150px;
+
+
+
+}
+
+.address-section{
+    padding: 50px 100px;
+}
+.subscribe-section{
+    padding: 50px 30px;
 
 }
 
 .address-section-title {
-    margin: 40px;
-    font-size: 40px;
+    font-size: 28px;
+    margin-bottom: 40px;
 }
 
 .address-section-description {
-    margin: 40px;
-    font-size: 17px;
     color: rgb(240, 233, 233);
+    margin: 20px 0;
+    font-size: 13px;
 }
 
 .address-section h4 {
-    margin: 40px;
-    font-size: 17px;
-    color: rgb(240, 233, 233);
+    font-size: 13px;
+    color: rgb(210, 202, 202);
 
 
 }
@@ -239,21 +238,19 @@ footer .footer-items {
 .link-icons {
     display: flex;
     gap: 20px;
-    margin-left: 40px;
-    margin-bottom: 100px;
+    margin: 20px 0;
 }
 
 .subscribe-section-heading {
 
-    font-size: 40px;
-    margin-top: 45px;
+    font-size: 25px;
 }
 
 .subscribe-section input[type="email"] {
     margin: 20px 0;
-    font-size: 20px;
+    font-size: 17px;
     margin-top: 45px;
-    padding: 10px 8px;
+    padding: 8px 10px;
     background-color: black;
     border-radius: 8px;
     border: 0.5px solid white;
@@ -263,7 +260,7 @@ footer .footer-items {
 .subscribe-btn {
     background-color: rgb(49, 170, 36);
     color: white;
-    padding: 20px 40px;
+    padding: 5px 15px;
     font-size: 20px;
     border: none;
     font-weight: bolder;
